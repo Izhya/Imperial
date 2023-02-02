@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImperialUnitsConverter", "ImperialUnitsConverter.csproj", "{557BD486-E2F4-4524-A35D-D6256E468468}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{557BD486-E2F4-4524-A35D-D6256E468468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{557BD486-E2F4-4524-A35D-D6256E468468}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{557BD486-E2F4-4524-A35D-D6256E468468}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{557BD486-E2F4-4524-A35D-D6256E468468}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35563942-72DC-402E-B824-4705D0936CFD}
+	EndGlobalSection
+EndGlobal
