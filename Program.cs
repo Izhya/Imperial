@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Information;
+using Conversions;
 
 namespace ImperialUnitsConverter
 {
@@ -12,7 +13,7 @@ namespace ImperialUnitsConverter
     {
 
         // TODO: Implement more converters and remove 0 to allow choice.
-        static string userCaseInput = "1";
+        static string userCaseInput = "0";
         static int userChoiceSwitch;
         static string userCalculation;
 

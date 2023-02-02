@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace convertLength
+namespace Conversions
 {
-    static class Class1
+    static class Conversions
     {
 
     }
