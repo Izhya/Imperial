@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Conversions.cs" />
     <Compile Include="Information.cs" />
+    <Compile Include="InputOutput.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
