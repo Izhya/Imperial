@@ -22,7 +22,7 @@ namespace InputOutput
     public static class OutputVariable
     {
         public static double conversionResult;
-        public static string resultOutput = $"{UserConvert.userAmount} {UserConvert.unitOne} equals {OutputVariable.conversionResult} {UserConvert.unitTwo}";
+        public static string resultOutput = $"{UserConvert.userAmount} {UserConvert.unitOne} equals {conversionResult} {UserConvert.unitTwo}";
 
     }
 

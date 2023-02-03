@@ -37,7 +37,7 @@ namespace ImperialUnitsConverter
                             InputVariable.userCalculation = Console.ReadLine();
                             UserConvert.ConvertLength(InputVariable.userCalculation);
                             Console.WriteLine();
-                            Console.WriteLine($"Result:{OutputVariable.resultOutput}");
+                            Console.WriteLine($"Result: " + OutputVariable.resultOutput);
                             Console.ReadKey();
                             break;
 

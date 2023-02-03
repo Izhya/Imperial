@@ -18,10 +18,7 @@ namespace Conversions
                     unitFurlong = unitYard / 220;
         static double userConvertedToThou, calcConverted;
         public static int userAmount;
-        public static string unitOne, unitTwo;
-
-        public static double conversionResult;
-        
+        public static string unitOne, unitTwo;        
 
         public static void ConvertLength(string input) 
         {
