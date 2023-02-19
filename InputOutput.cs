@@ -8,6 +8,15 @@ using Conversions;
 
 namespace InputOutput
 {
+    //En klass per fil där filen heter samma som klassen. Man kan ha nästlade klasser alltså.
+    //Då döps filen till A i detta fall och för att nå klassen B får man skriva A.B
+    //public class A
+    //{
+    //    public class B
+    //    {
+
+    //    }
+    //}
     public static class InputVariable
     {
         // TODO: Implement more converters and remove 0 to allow choice.
@@ -21,8 +30,10 @@ namespace InputOutput
 
     public static class OutputVariable
     {
-        public static double conversionResult;
-        public static string resultOutput = $"{UserConvert.userAmount} {UserConvert.unitOne} equals {conversionResult} {UserConvert.unitTwo}";
+        public static decimal conversionResult;
+        //Denna sträng definieras vid uppstart då den är static. Då saknar alla variabler värden
+        //public static string resultOutput = $"{UserConvert.userAmount} {UserConvert.unitOne} equals {conversionResult} {UserConvert.unitTwo}";
+        public static string ResultOutput() => $"{UserConvert.userAmount} {UserConvert.unitOne} equals {conversionResult} {UserConvert.unitTwo}";
 
     }
 
@@ -41,10 +52,12 @@ namespace InputOutput
         public static void stringSeparationForLength(string input)
         {
             int count = 3;
-            string[] lengthseparator = { "", " ", "," , "in"};
+            //in är förkortning av inch, så den kan vi inte ta bort utan får räkna med att de ska bli fyra sträkngar varav tredje är "in"
+            string[] lengthseparator = { " ", "," , "in"}; 
 
             //TODO: Remove later { "thou", "th", "foot", "ft", "yards", "yd", "furlong", "fur" };
-
+            //Varför count? Är det inte bättre att dela hela strängen och sedan kolla om det är rätt antal
+            //Nu kommer den sista strängen kanske bli fel för att vi inte splittat mer än tre. Felet är alltså att inmatningen var fel från början.
             strlist = input.Split(lengthseparator, count,
                StringSplitOptions.RemoveEmptyEntries);
         }
